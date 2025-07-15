@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Artikli.Controllers.ArtikalController",
+    "Method": "Add",
+    "RelativePath": "Artikal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artikal",
+        "Type": "Artikli.Model.Artikal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Artikli.Controllers.ArtikalController",
+    "Method": "Get",
+    "RelativePath": "Artikal/{naziv}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "naziv",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

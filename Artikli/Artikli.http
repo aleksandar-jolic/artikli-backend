@@ -1,0 +1,6 @@
+@Artikli_HostAddress = http://localhost:5298
+
+GET {{Artikli_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
