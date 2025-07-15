@@ -9,7 +9,7 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: nstserver
     ports:
-      - "5432:5432"
+      - "55432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
 
@@ -21,7 +21,7 @@ services:
       - "5000:8080"
     environment:
       - ASPNETCORE_ENVIRONMENT=Production
-      - ConnectionStrings__DefaultConnection=Host=db;Database=artikli_db;Username=postgres;Password=nstserver
+      - ConnectionStrings__DefaultConnection=Host=db;Database=artikli_docker_db;Username=postgres;Password=nstserver
     depends_on:
       - db
 
