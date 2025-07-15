@@ -1,0 +1,30 @@
+## Build artifacts
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+
+## VSCode
+.vscode/
+
+## Rider
+.idea/
+
+## OS generated files
+.DS_Store
+Thumbs.db
+
+## Logs
+*.log
+
+## EF Core Migrations Snapshots (opciono ako ih ne pratiš)
+**/Migrations/*.Designer.cs
+
+## Docker
+.dockerignore
+.env
+
+
+.vs/

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Artikli")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+439fb46b96dad62b123ce90eaf9d8504de299c28")]
 [assembly: System.Reflection.AssemblyProductAttribute("Artikli")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Artikli")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
