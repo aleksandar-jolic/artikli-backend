@@ -5,9 +5,9 @@ services:
     image: postgres:16
     restart: always
     environment:
-      POSTGRES_DB: artikli_db
+      POSTGRES_DB: artikli_docker_db
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: nstserver
     ports:
       - "5432:5432"
     volumes:
