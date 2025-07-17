@@ -11,9 +11,9 @@ namespace Artikli.Controllers
         [HttpGet("{naziv}")]
         public IActionResult Get([FromRoute] string naziv)
         {
-            var result = _dbContext.Artikli.FirstOrDefault(x => x.Name == naziv);
+            var rezultati = _dbContext.Artikli.Where(x => x.Name.ToLower().Contains(naziv.ToLower())).ToList();
 
-            return result is null ? NotFound("Artikal nije pronadjen...") : Ok(result);
+            return rezultati is null ? NotFound("Artikal nije pronadjen...") : Ok(rezultati);
         }
 
         [HttpPost]
